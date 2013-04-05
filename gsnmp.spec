@@ -28,6 +28,7 @@ package.
 %package lib
 Summary:	A library of functions for the snmp protocol
 Group:		Libraries
+Requires:	%{name} = %{version}-%{release}
 
 %description lib
 This package contains the library needed to run programs dynamically
